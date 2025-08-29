@@ -8,7 +8,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    DataView: typeof import('primevue/dataview')['default']
+    InputText: typeof import('primevue/inputtext')['default']
     Slider: typeof import('primevue/slider')['default']
+    Tag: typeof import('primevue/tag')['default']
     ToggleSwitch: typeof import('primevue/toggleswitch')['default']
   }
 }
